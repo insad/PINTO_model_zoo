@@ -83,7 +83,7 @@ I have been working on quantization of various models as a hobby, but I have ski
 |074|Yolact|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/074_Yolact)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫||
 |085|Yolact_Edge|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/085_Yolact_Edge)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|WIP, MobileNetV2(256/320)|
 |089|DETR|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/089_DETR)|⚫|⚫|⚫||⚫|||||⚫|256x256|
-|103|EfficientDet_lite|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/103_EfficientDet_lite)|⚫|⚫|⚫|⚫|⚫|||⚫|⚫|⚫|lite0,lite1,lite2,lite3,lite4|
+|103|EfficientDet_lite|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/103_EfficientDet_lite)|⚫|⚫|⚫|⚫|⚫|⚫||⚫|⚫|⚫|lite0,lite1,lite2,lite3,lite4|
 ### 3. 3D Object Detection
 |No.|Model Name|Link|FP32|FP16|INT8|TPU|WQ|OV|CM|TFJS|TF-TRT|ONNX|Remarks|
 |:-|:-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-|
@@ -164,6 +164,7 @@ I have been working on quantization of various models as a hobby, but I have ski
 |062|Facial Cartoonization|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/062_facial_cartoonization)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫||
 |068|Colorful_Image_Colorization|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/068_Colorful_Image_Colorization)|⚫|⚫|||⚫|⚫|⚫|⚫||⚫|experimental|
 |101|arbitrary_image_stylization|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/101_arbitrary_image_stylization)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|magenta|
+|113|Anime2Sketch|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/113_Anime2Sketch)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫|⚫||
 ### 11. Super Resolution
 |No.|Model Name|Link|FP32|FP16|INT8|TPU|WQ|OV|CM|TFJS|TF-TRT|ONNX|Remarks|
 |:-|:-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-|
@@ -175,6 +176,9 @@ I have been working on quantization of various models as a hobby, but I have ski
 |079|MIRNet|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/079_MIRNet)|⚫|⚫|⚫|⚫|⚫|⚫||⚫|⚫|⚫||
 |086|Defocus Deblurring Using Dual-Pixel|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/086_defocus-deblurring-dual-pixel)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫|⚫||
 |090|Ghost-free_Shadow_Removal|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/090_Ghost-free_Shadow_Removal)|⚫|⚫|⚫||⚫|⚫|⚫|||⚫|256x256|
+|111|SRN-Deblur|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/111_SRN-Deblur)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫|⚫|240x320,480x640,720x1280,1024x1280|
+|112|DeblurGANv2|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/112_DeblurGANv2)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫|⚫|inception/mobilenetv2:256x256,320x320,480x640,736x1280,1024x1280|
+|114|Two-branch-dehazing|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/114_Two-branch-dehazing)|⚫|⚫|⚫||⚫|⚫||⚫|⚫|⚫|240x320,480x640,720x1280|
 ### 12. Sound Classifier
 |No.|Model Name|Link|FP32|FP16|INT8|TPU|WQ|OV|CM|TFJS|TF-TRT|ONNX|Remarks|
 |:-|:-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-|
@@ -277,7 +281,7 @@ $ python3 deeplabv3plus_usbcam.py
 - OpenGL
 - USB Camera, 640x480
 - **`$ v4l2-ctl --set-fmt-video=width=640,height=480,pixelformat=YUYV`**
-- **[Test Code - tflite_gles_app - gl2facemesh - @terryky](https://github.com/terryky/tflite_gles_app.git)**
+- **[Test Code - tflite_gles_app - gl2facemesh - @terryky](https://github.com/terryky/tflite_gles_app.git)**  
 ![008](999_media/008.gif)
 ## Sample.6 - MediaPipe/Objectron, object_detection_3d_chair_640x480_weight_quant
 - Ubuntu 18.04 x86_64
@@ -286,7 +290,7 @@ $ python3 deeplabv3plus_usbcam.py
 - OpenGL
 - USB Camera, 640x480
 - **`$ v4l2-ctl --set-fmt-video=width=640,height=480,pixelformat=YUYV`**
-- **[Test Code - tflite_gles_app - gl2objectron - @terryky](https://github.com/terryky/tflite_gles_app.git)**
+- **[Test Code - tflite_gles_app - gl2objectron - @terryky](https://github.com/terryky/tflite_gles_app.git)**  
 ![009](999_media/009.gif)
 ## Sample.7 - MediaPipe/Objectron, object_detection_3d_chair_640x480_openvino_FP32
 - Ubuntu 18.04 x86_64
@@ -294,7 +298,7 @@ $ python3 deeplabv3plus_usbcam.py
 - Python
 - Core i7 (CPU only)
 - USB Camera, 640x480
-- **[Test Code - objectron-3d-object-detection-openvino - @yas-sim](https://github.com/yas-sim/objectron-3d-object-detection-openvino.git)**
+- **[Test Code - objectron-3d-object-detection-openvino - @yas-sim](https://github.com/yas-sim/objectron-3d-object-detection-openvino.git)**  
 ![011](999_media/011.gif)
 ## Sample.8 - MediaPipe/BlazeFace, face_detection_front_128_integer_quant
 - RaspberryPi4
@@ -304,14 +308,14 @@ $ python3 deeplabv3plus_usbcam.py
 - OpenGL
 - USB Camera, 640x480
 - **`$ v4l2-ctl --set-fmt-video=width=640,height=480,pixelformat=YUYV`**
-- **[Test Code - tflite_gles_app - gl2blazeface - @terryky](https://github.com/terryky/tflite_gles_app.git)**
+- **[Test Code - tflite_gles_app - gl2blazeface - @terryky](https://github.com/terryky/tflite_gles_app.git)**  
 ![010](999_media/010.gif)
 ## Sample.9 - MediaPipe/Hand_Detection_and_Tracking(3D Hand Pose), hand_landmark_3d_256_integer_quant.tflite + palm_detection_builtin_256_integer_quant.tflite
 - RaspberryPi4
 - Tensorflow Lite
 - C/C++
 - OpenGL
-- **[Test Code - tflite_gles_app - gl2handpose - @terryky](https://github.com/terryky/tflite_gles_app.git)**
+- **[Test Code - tflite_gles_app - gl2handpose - @terryky](https://github.com/terryky/tflite_gles_app.git)**  
 ![gl2handpose_mov](https://github.com/terryky/tflite_gles_app/blob/master/gl2handpose/gl2handpose_mov.gif)
 ## Sample.10 - DBFace, 640x480_openvino_FP32
 - Ubuntu 18.04 x86_64
@@ -319,25 +323,25 @@ $ python3 deeplabv3plus_usbcam.py
 - Python
 - Core i7 (CPU only)
 - USB Camera, 640x480
-- **[Test Code - DBFace-on-OpenVINO - @yas-sim](https://github.com/yas-sim/DBFace-on-OpenVINO.git)**
+- **[Test Code - DBFace-on-OpenVINO - @yas-sim](https://github.com/yas-sim/DBFace-on-OpenVINO.git)**  
 ![012](999_media/012.gif)
 ## Sample.11 - Human_Pose_Estimation_3D, 640x480, Tensorflow.js + WebGL + Browser
 - Ubuntu 18.04 x86_64
 - Tensorflow.js
 - USB Camera, 640x480
-- **[Test Code - tfjs_webgl_app - @terryky](https://github.com/terryky/tfjs_webgl_app.git)**
+- **[Test Code - tfjs_webgl_app - @terryky](https://github.com/terryky/tfjs_webgl_app.git)**  
 ![013](999_media/013.gif)
 ## Sample.12 - BlazePose Full Body, 640x480, Tensorflow.js + WebGL + Browser
 - Ubuntu 18.04 x86_64
 - Tensorflow.js
 - USB Camera, 640x480
-- **[Test Code - tfjs_webgl_app - @terryky](https://github.com/terryky/tfjs_webgl_app.git)**
+- **[Test Code - tfjs_webgl_app - @terryky](https://github.com/terryky/tfjs_webgl_app.git)**  
 ![014](999_media/014.gif)
 ## Sample.13 - Facial Cartoonization, 640x480, OpenVINO Corei7 CPU only
 - Ubuntu 18.04 x86_64
 - OpenVINO
 - USB Camera, 640x480
-- **[Test Code](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/062_facial_cartoonization/01_float32)**
+- **[Test Code](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/062_facial_cartoonization/01_float32)**  
 ![015](999_media/015.gif)
 
 ## 1. Environment
