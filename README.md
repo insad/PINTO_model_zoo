@@ -84,6 +84,7 @@ I have been working on quantization of various models as a hobby, but I have ski
 |085|Yolact_Edge|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/085_Yolact_Edge)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|WIP, MobileNetV2(256/320)|
 |089|DETR|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/089_DETR)|⚫|⚫|⚫||⚫|||||⚫|256x256|
 |103|EfficientDet_lite|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/103_EfficientDet_lite)|⚫|⚫|⚫|⚫|⚫|⚫||⚫|⚫|⚫|lite0,lite1,lite2,lite3,lite4|
+|116|DroNet|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/116_DroNet)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|DroNet,DroNetV3|
 ### 3. 3D Object Detection
 |No.|Model Name|Link|FP32|FP16|INT8|TPU|WQ|OV|CM|TFJS|TF-TRT|ONNX|Remarks|
 |:-|:-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-|
@@ -120,6 +121,7 @@ I have been working on quantization of various models as a hobby, but I have ski
 |080|tf_pose_estimation|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/080_tf_pose_estimation)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫||
 |084|EfficientPose|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/084_EfficientPose)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫|⚫|SinglePose|
 |088|Mobilenetv3_Pose_Estimation|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/088_mobilenetv3-poseestimation)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫|⚫||
+|115|MoveNet|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/115_MoveNet)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫|⚫|lightning,thunder|
 ### 7. Depth Estimation from Monocular Images
 |No.|Model Name|Link|FP32|FP16|INT8|TPU|WQ|OV|CM|TFJS|TF-TRT|ONNX|Remarks|
 |:-|:-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-|
@@ -138,7 +140,7 @@ I have been working on quantization of various models as a hobby, but I have ski
 |020|EdgeTPU-Deeplab|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/020_edgetpu-deeplab)|⚫|⚫|⚫||⚫|||||||
 |021|EdgeTPU-Deeplab-slim|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/021_edgetpu-deeplab-slim)|⚫|⚫|⚫||⚫|||||||
 |026|Mobile-Deeplabv3-plus|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/026_mobile-deeplabv3-plus)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫||
-|035|BodyPix|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/035_BodyPix)|⚫|⚫|⚫||⚫|⚫||⚫|||MediaPipe|
+|035|BodyPix|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/035_BodyPix)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|MediaPipe,MobileNet0.50/0.75/1.00,ResNet50|
 |057|BiSeNetV2|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/057_BiSeNetV2)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫||
 |060|Hair Segmentation|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/060_hair_segmentation)|⚫||||⚫|||⚫|⚫|⚫|WIP,MediaPipe|
 |061|U^2-Net|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/061_U-2-Net)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫||
@@ -184,11 +186,15 @@ I have been working on quantization of various models as a hobby, but I have ski
 |:-|:-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-|
 |013|ml-sound-classifier|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/013_ml-sound-classifier)|⚫|⚫|⚫||⚫|⚫||⚫|⚫|||
 |097|YAMNet|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/097_YAMNet)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫|⚫||
-|098|SPICE|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/098_SPICE)|⚫|⚫|||⚫|||⚫|⚫||Optimization will be done after TFv2.5.0 is released.|
+|098|SPICE|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/098_SPICE)|⚫|⚫|⚫||⚫|||⚫|⚫|||
+|118|Speech-enhancement|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/118_Speech-enhancement)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|WIP,EdgeTPU(LeakyLeRU)|
+|120|FRILL|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/120_FRILL)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|nofrontend|
 ### 13. Natural Language Processing
 |No.|Model Name|Link|FP32|FP16|INT8|TPU|WQ|OV|CM|TFJS|TF-TRT|ONNX|Remarks|
 |:-|:-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-|
 |048|Mobile_BERT|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/048_mobile_bert)|⚫|⚫|||⚫|⚫|⚫|⚫||⚫||
+|121|GPT2/DistillGPT2|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/121_GPT2_DistillGPT2)|⚫|⚫|||⚫|⚫|⚫|⚫|⚫|⚫||
+|122|DistillBert|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/122_DistillBert)|⚫|⚫|||⚫|⚫|⚫|⚫|⚫|⚫||
 ### 14. Text Recognition
 |No.|Model Name|Link|FP32|FP16|INT8|TPU|WQ|OV|CM|TFJS|TF-TRT|ONNX|Remarks|
 |:-|:-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-|
@@ -214,6 +220,8 @@ I have been working on quantization of various models as a hobby, but I have ski
 |102|Coconet|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/102_Coconet)|⚫|⚫|||⚫|||⚫|||magenta|
 |108|HAWP|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/108_HAWP)||||||||||⚫|WIP|
 |110|L-CNN|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/110_L-CNN)||||||||||⚫|WIP|
+|117|DTLN|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/117_DTLN)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫||
+|119|M-LSD|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/119_M-LSD)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫|⚫||
 
 ## Sample.1 - Object detection by video file
 - RaspberryPi4 (CPU only)
@@ -281,7 +289,7 @@ $ python3 deeplabv3plus_usbcam.py
 - OpenGL
 - USB Camera, 640x480
 - **`$ v4l2-ctl --set-fmt-video=width=640,height=480,pixelformat=YUYV`**
-- **[Test Code - tflite_gles_app - gl2facemesh - @terryky](https://github.com/terryky/tflite_gles_app.git)**  
+- **[Test Code - tflite_gles_app - gl2facemesh - @terryky](https://github.com/terryky/tflite_gles_app.git)**
 ![008](999_media/008.gif)
 ## Sample.6 - MediaPipe/Objectron, object_detection_3d_chair_640x480_weight_quant
 - Ubuntu 18.04 x86_64
@@ -290,7 +298,7 @@ $ python3 deeplabv3plus_usbcam.py
 - OpenGL
 - USB Camera, 640x480
 - **`$ v4l2-ctl --set-fmt-video=width=640,height=480,pixelformat=YUYV`**
-- **[Test Code - tflite_gles_app - gl2objectron - @terryky](https://github.com/terryky/tflite_gles_app.git)**  
+- **[Test Code - tflite_gles_app - gl2objectron - @terryky](https://github.com/terryky/tflite_gles_app.git)**
 ![009](999_media/009.gif)
 ## Sample.7 - MediaPipe/Objectron, object_detection_3d_chair_640x480_openvino_FP32
 - Ubuntu 18.04 x86_64
@@ -298,7 +306,7 @@ $ python3 deeplabv3plus_usbcam.py
 - Python
 - Core i7 (CPU only)
 - USB Camera, 640x480
-- **[Test Code - objectron-3d-object-detection-openvino - @yas-sim](https://github.com/yas-sim/objectron-3d-object-detection-openvino.git)**  
+- **[Test Code - objectron-3d-object-detection-openvino - @yas-sim](https://github.com/yas-sim/objectron-3d-object-detection-openvino.git)**
 ![011](999_media/011.gif)
 ## Sample.8 - MediaPipe/BlazeFace, face_detection_front_128_integer_quant
 - RaspberryPi4
@@ -308,14 +316,14 @@ $ python3 deeplabv3plus_usbcam.py
 - OpenGL
 - USB Camera, 640x480
 - **`$ v4l2-ctl --set-fmt-video=width=640,height=480,pixelformat=YUYV`**
-- **[Test Code - tflite_gles_app - gl2blazeface - @terryky](https://github.com/terryky/tflite_gles_app.git)**  
+- **[Test Code - tflite_gles_app - gl2blazeface - @terryky](https://github.com/terryky/tflite_gles_app.git)**
 ![010](999_media/010.gif)
 ## Sample.9 - MediaPipe/Hand_Detection_and_Tracking(3D Hand Pose), hand_landmark_3d_256_integer_quant.tflite + palm_detection_builtin_256_integer_quant.tflite
 - RaspberryPi4
 - Tensorflow Lite
 - C/C++
 - OpenGL
-- **[Test Code - tflite_gles_app - gl2handpose - @terryky](https://github.com/terryky/tflite_gles_app.git)**  
+- **[Test Code - tflite_gles_app - gl2handpose - @terryky](https://github.com/terryky/tflite_gles_app.git)**
 ![gl2handpose_mov](https://github.com/terryky/tflite_gles_app/blob/master/gl2handpose/gl2handpose_mov.gif)
 ## Sample.10 - DBFace, 640x480_openvino_FP32
 - Ubuntu 18.04 x86_64
@@ -323,25 +331,25 @@ $ python3 deeplabv3plus_usbcam.py
 - Python
 - Core i7 (CPU only)
 - USB Camera, 640x480
-- **[Test Code - DBFace-on-OpenVINO - @yas-sim](https://github.com/yas-sim/DBFace-on-OpenVINO.git)**  
+- **[Test Code - DBFace-on-OpenVINO - @yas-sim](https://github.com/yas-sim/DBFace-on-OpenVINO.git)**
 ![012](999_media/012.gif)
 ## Sample.11 - Human_Pose_Estimation_3D, 640x480, Tensorflow.js + WebGL + Browser
 - Ubuntu 18.04 x86_64
 - Tensorflow.js
 - USB Camera, 640x480
-- **[Test Code - tfjs_webgl_app - @terryky](https://github.com/terryky/tfjs_webgl_app.git)**  
+- **[Test Code - tfjs_webgl_app - @terryky](https://github.com/terryky/tfjs_webgl_app.git)**
 ![013](999_media/013.gif)
 ## Sample.12 - BlazePose Full Body, 640x480, Tensorflow.js + WebGL + Browser
 - Ubuntu 18.04 x86_64
 - Tensorflow.js
 - USB Camera, 640x480
-- **[Test Code - tfjs_webgl_app - @terryky](https://github.com/terryky/tfjs_webgl_app.git)**  
+- **[Test Code - tfjs_webgl_app - @terryky](https://github.com/terryky/tfjs_webgl_app.git)**
 ![014](999_media/014.gif)
 ## Sample.13 - Facial Cartoonization, 640x480, OpenVINO Corei7 CPU only
 - Ubuntu 18.04 x86_64
 - OpenVINO
 - USB Camera, 640x480
-- **[Test Code](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/062_facial_cartoonization/01_float32)**  
+- **[Test Code](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/062_facial_cartoonization/01_float32)**
 ![015](999_media/015.gif)
 
 ## 1. Environment

@@ -11,18 +11,22 @@ pinto0309/tflite2tensorflow:latest
 
 cd workdir
 
-tflite2tensorflow \
---model_path lite-model_spice_1.tflite \
+python3 tflite2tensorflow.py \
+--model_path distilbert-base-uncased-distilled-squad-384.tflite \
 --flatc_path ../flatc \
 --schema_path ../schema.fbs \
 --output_pb
 
-tflite2tensorflow \
---model_path lite-model_spice_1.tflite \
+python3 tflite2tensorflow.py \
+--model_path distilbert-base-uncased-distilled-squad-384.tflite \
 --flatc_path ../flatc \
 --schema_path ../schema.fbs \
 --output_no_quant_float32_tflite \
 --output_weight_quant_tflite \
 --output_float16_quant_tflite \
 --output_tfjs \
---output_tftrt
+--output_coreml \
+--output_tftrt \
+--output_onnx \
+--onnx_opset 11 \
+--output_openvino_and_myriad
