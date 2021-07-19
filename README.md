@@ -109,6 +109,7 @@ I have been working on quantization of various models as a hobby, but I have ski
 |096|RetinaFace|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/096_RetinaFace)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫|⚫||
 |106|WHENet|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/106_WHENet)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|Real-time Fine-Grained Estimation for Wide Range Head Pose|
 |129|SCRFD|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/129_SCRFD)|⚫|⚫|||⚫|⚫||⚫||⚫|All types|
+|130|YOLOv5_Face|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/130_YOLOv5_Face)|⚫|⚫|||⚫|⚫|⚫|⚫||⚫|yolov5n_0.5,yolov5n_face,yolov5s_face/256x320,480x640,736x1280|
 ### 5. 2D/3D Hand Detection
 |No.|Model Name|Link|FP32|FP16|INT8|TPU|WQ|OV|CM|TFJS|TF-TRT|ONNX|Remarks|
 |:-|:-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-|
@@ -232,6 +233,7 @@ I have been working on quantization of various models as a hobby, but I have ski
 |117|DTLN|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/117_DTLN)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫||
 |119|M-LSD|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/119_M-LSD)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫|⚫||
 |128|DeepCalib|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/128_DeepCalib)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|Single|
+|131|CFNet|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/131_CFNet)||||||||||⚫|256x256,512x768|
 
 ## Sample.1 - Object detection by video file
 - RaspberryPi4 (CPU only)
