@@ -111,6 +111,7 @@ I have been working on quantization of various models as a hobby, but I have ski
 |106|WHENet|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/106_WHENet)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|Real-time Fine-Grained Estimation for Wide Range Head Pose|
 |129|SCRFD|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/129_SCRFD)|⚫|⚫|||⚫|⚫||⚫||⚫|All types|
 |130|YOLOv5_Face|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/130_YOLOv5_Face)|⚫|⚫|||⚫|⚫|⚫|⚫||⚫|yolov5n_0.5,yolov5n_face,yolov5s_face/256x320,480x640,736x1280|
+|134|head-pose-estimation-adas-0001|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/134_head-pose-estimation-adas-0001)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫||
 ### 5. 2D/3D Hand Detection
 |No.|Model Name|Link|FP32|FP16|INT8|TPU|WQ|OV|CM|TFJS|TF-TRT|ONNX|Remarks|
 |:-|:-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-|
@@ -188,6 +189,7 @@ I have been working on quantization of various models as a hobby, but I have ski
 |111|SRN-Deblur|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/111_SRN-Deblur)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫|⚫|240x320,480x640,720x1280,1024x1280|
 |112|DeblurGANv2|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/112_DeblurGANv2)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫|⚫|inception/mobilenetv2:256x256,320x320,480x640,736x1280,1024x1280|
 |114|Two-branch-dehazing|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/114_Two-branch-dehazing)|⚫|⚫|⚫||⚫|⚫||⚫|⚫|⚫|240x320,480x640,720x1280|
+|133|Real-ESRGAN|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/133_Real-ESRGAN)||||||||||⚫|16x16,32x32,64x64,128x128,240x320,256x256,320x320,480x640|
 ### 12. Sound Classifier
 |No.|Model Name|Link|FP32|FP16|INT8|TPU|WQ|OV|CM|TFJS|TF-TRT|ONNX|Remarks|
 |:-|:-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-|
