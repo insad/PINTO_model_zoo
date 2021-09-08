@@ -90,6 +90,7 @@ I have been working on quantization of various models as a hobby, but I have ski
 |116|DroNet|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/116_DroNet)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|DroNet,DroNetV3|
 |123|YOLOR|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/123_YOLOR)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫||⚫|ssss_s2d/320x320,640x640,960x960,1280x1280|
 |132|YOLOX|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/132_YOLOX)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫||⚫|nano/tiny,320x320,416x416,480x640,544x960,736x1280,1088x1920|
+|143|RAPiD|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/143_RAPiD)|⚫|⚫|⚫||⚫|⚫||||⚫|Fisheye, cepdof/habbof/mw_r, 608x608/1024x1024|
 ### 3. 3D Object Detection
 |No.|Model Name|Link|FP32|FP16|INT8|TPU|WQ|OV|CM|TFJS|TF-TRT|ONNX|Remarks|
 |:-|:-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-|
@@ -130,6 +131,7 @@ I have been working on quantization of various models as a hobby, but I have ski
 |084|EfficientPose|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/084_EfficientPose)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫|⚫|SinglePose|
 |088|Mobilenetv3_Pose_Estimation|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/088_mobilenetv3-poseestimation)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫|⚫||
 |115|MoveNet|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/115_MoveNet)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫|⚫|lightning,thunder|
+|137|MoveNet_MultiPose|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/137_MoveNet_MultiPose)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫|⚫|lightning,192x192,192x256,256x256,256x320,320x320,480x640,720x1280,1280x1920|
 ### 7. Depth Estimation from Monocular Images
 |No.|Model Name|Link|FP32|FP16|INT8|TPU|WQ|OV|CM|TFJS|TF-TRT|ONNX|Remarks|
 |:-|:-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-|
@@ -140,6 +142,8 @@ I have been working on quantization of various models as a hobby, but I have ski
 |066|Footprints|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/066_footprints)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫|⚫||
 |067|MiDaS|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/067_MiDaS)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫|⚫||
 |081|MiDaS v2|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/081_MiDaS_v2)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫||
+|135|CoEx|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/135_CoEx)||||||⚫||||⚫|WIP, onnx/OpenVINO only|
+|142|HITNET|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/142_HITNET)|⚫|⚫|||⚫|||||⚫|WIP [issue](https://github.com/openvinotoolkit/openvino/issues/7379),flyingthings_finalpass_xl/eth3d/middlebury_d400,120x160/240x320/256x256/480x640/720x1280|
 ### 8. Semantic Segmentation
 |No.|Model Name|Link|FP32|FP16|INT8|TPU|WQ|OV|CM|TFJS|TF-TRT|ONNX|Remarks|
 |:-|:-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-|
@@ -158,6 +162,8 @@ I have been working on quantization of various models as a hobby, but I have ski
 |082|MediaPipe_Meet_Segmentation|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/082_MediaPipe_Meet_Segmentation)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|MediaPipe,128x128,144x256,96x160|
 |104|DeeplabV3-plus|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/104_DeeplabV3-plus)|⚫|⚫|⚫||⚫|⚫|⚫|⚫||⚫|cityscapes,200x400,400x800,800x1600|
 |109|Selfie_Segmentation|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/109_Selfie_Segmentation)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫|⚫|256x256|
+|136|road-segmentation-adas-0001|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/136_road-segmentation-adas-0001)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫|⚫||
+|138|BackgroundMattingV2|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/138_BackgroundMattingV2)|⚫|⚫|||⚫|⚫||||⚫|720x1280,2160x4096|
 ### 9. Anomaly Detection
 |No.|Model Name|Link|FP32|FP16|INT8|TPU|WQ|OV|CM|TFJS|TF-TRT|ONNX|Remarks|
 |:-|:-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-|
@@ -235,8 +241,10 @@ I have been working on quantization of various models as a hobby, but I have ski
 |110|L-CNN|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/110_L-CNN)||||||||||⚫|WIP|
 |117|DTLN|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/117_DTLN)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫||
 |119|M-LSD|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/119_M-LSD)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫|⚫||
-|128|DeepCalib|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/128_DeepCalib)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|Single|
 |131|CFNet|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/131_CFNet)||||||||||⚫|256x256,512x768|
+|139|PSD-Principled-Synthetic-to-Real-Dehazing-Guided-by-Physical-Priors|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/139_PSD-Principled-Synthetic-to-Real-Dehazing-Guided-by-Physical-Priors)|⚫|⚫|||⚫|⚫|⚫|⚫|⚫|⚫||
+|140|Ultra-Fast-Lane-Detection|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/140_Ultra-Fast-Lane-Detection)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|288x800|
+|141|lanenet-lane-detection|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/141_lanenet-lane-detection)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|256x512|
 
 ## Sample.1 - Object detection by video file
 - RaspberryPi4 (CPU only)
