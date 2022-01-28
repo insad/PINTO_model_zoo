@@ -1,5 +1,5 @@
 name: Issue
-description: Use this template to report any issue
+description: All issues should be created by pressing the "Get started" button on the right, and any miscellaneous issues that do not follow the issue template will be closed immediately.
 body:
   - type: markdown
     attributes:
@@ -82,6 +82,13 @@ body:
         - PaddlePaddle
         - NCNN
         - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what-model
+    attributes:
+      label: Model name and Weights/Checkpoints URL
+      description: Include the name of the model and the URL from which the model was taken.
     validations:
       required: true
   - type: textarea
