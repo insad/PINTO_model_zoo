@@ -177,6 +177,9 @@ I have been working on quantization of various models as a hobby, but I have ski
 |156|MobileHumanPose|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/156_MobileHumanPose)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|3D|
 |157|3DMPPE_POSENET|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/157_3DMPPE_POSENET)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫|⚫|⚫|3D,192x192/256x256/320x320/416x416/480x640/512x512|
 |265|PoseAug|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/265_PoseAug)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫||⚫|2D->3D/GCN,MLP,STGCN,VideoPose/Nx16x2|
+|268|Lite-HRNet|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/268_Lite-HRNet)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫||⚫|COCO,MPII/Top-Down|
+|269|Higher-HRNet|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/269_Higher-HRNet)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫||⚫|192x320,256x320,320x480,384x640,480x640,512x512,576x960,736x1280/Bottom-Up|
+|271|HRNet|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/271_HRNet)|||||||||||⚫|COCO,MPII/Top-Down|
 ### 7. Depth Estimation from Monocular/Stereo Images
 |No.|Model Name|Link|FP32|FP16|INT8|TPU|DQ|WQ|OV|CM|TFJS|TF-TRT|ONNX|Remarks|
 |:-|:-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-|
@@ -214,7 +217,8 @@ I have been working on quantization of various models as a hobby, but I have ski
 |239|CasStereoNet|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/239_CasStereoNet)|||||||||||⚫|Stereo KITTI only/256x320,384x480,480x640,736x1280|
 |245|GLPDepth|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/245_GLPDepth)|||||||⚫||||⚫|Kitti,NYU/192x320,320x480,384x640,480x640,736x1280,non-commercial use only|
 |258|TinyHITNet|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/258_TinyHITNet)|||||||⚫||||⚫|180x320,240x320,300x400,360x640,384x512,480x640,720x960,720x1280,No-LICENSE|
-|266|ACVNet|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/266_ACVNet)|||||||⚫||||⚫|sceneflow,kitti/240x320,320x480,384x640,480x640,544x960,720x1280,No-LICENSE|
+|266|ACVNet|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/266_ACVNet)|||||||⚫||||⚫|sceneflow,kitti/240x320,320x480,384x640,480x640,544x960,720x1280|
+|280|GASDA|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/280_GASDA)|||||||||||⚫|No-LICENSE|
 ### 8. Semantic Segmentation
 |No.|Model Name|Link|FP32|FP16|INT8|TPU|DQ|WQ|OV|CM|TFJS|TF-TRT|ONNX|Remarks|
 |:-|:-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-|
@@ -272,7 +276,7 @@ I have been working on quantization of various models as a hobby, but I have ski
 |071|Noise2Noise|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/071_Noise2Noise)|⚫|⚫|⚫|⚫||⚫|||||⚫|srresnet/clear only|
 |076|Deep_White_Balance|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/076_Deep_White_Balance)|⚫|⚫||||⚫|⚫|⚫|⚫|⚫|⚫||
 |077|ESRGAN|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/077_ESRGAN)|⚫|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫|⚫|50x50->x4, 100x100->x4|
-|079|MIRNet|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/079_MIRNet)|⚫|⚫|⚫|⚫||⚫|⚫||⚫|⚫|⚫||
+|079|MIRNet|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/079_MIRNet)|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|⚫|Low-light Image Enhancement/40x40,80x80,120x120,120x160,120x320,120x480,120x640,120x1280,180x480,180x640,180x1280,180x320,240x320,240x480,360x480,360x640,480x640,720x1280|
 |086|Defocus Deblurring Using Dual-Pixel|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/086_defocus-deblurring-dual-pixel)|⚫|⚫|⚫|||⚫|⚫|⚫|⚫|⚫|⚫||
 |090|Ghost-free_Shadow_Removal|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/090_Ghost-free_Shadow_Removal)|⚫|⚫|⚫|||⚫|⚫|⚫|||⚫|256x256|
 |111|SRN-Deblur|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/111_SRN-Deblur)|⚫|⚫|⚫|||⚫|⚫|⚫|⚫|⚫|⚫|240x320,480x640,720x1280,1024x1280|
@@ -313,6 +317,9 @@ I have been working on quantization of various models as a hobby, but I have ski
 |251|AU-GAN|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/251_AU-GAN)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫||⚫|Low-light Image Enhancement/128x256,240x320,240x640,256x512,480x640,512x1024,720x1280|
 |253|TransWeather|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/253_TransWeather)|||||||⚫||||⚫|DeRain,DeHaizing,DeSnow/192x320,256x320,320x480,384x640,480x640,736x1280|
 |261|EfficientDerain|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/261_EfficientDerain)|||||||||||⚫|v4_SPA,v4_rain100H,v4_rain1400/192x320,256x320,320x480,384x640,480x640,608x800,736x1280|
+|270|HWMNet|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/270_HWMNet)|||||||||||⚫|Low-light Image Enhancement/192x320,256x320,320x480,384x640,480x640,544x960,720x1280|
+|275|FD-GAN|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/275_FD-GAN)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫||⚫|DeHaizing/192x320,256x320,384x640,480x640,720x1280,1080x1920,No-LICENSE|
+|277|EDN-GTM|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/277_EDN-GTM)|⚫|⚫|||⚫|⚫|⚫|⚫|⚫||⚫|DeHaizing/192x320,240x320,384x480,480x640,512x512,720x1280,1088x1920|
 ### 12. Sound Classifier
 |No.|Model Name|Link|FP32|FP16|INT8|TPU|DQ|WQ|OV|CM|TFJS|TF-TRT|ONNX|Remarks|
 |:-|:-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-|
@@ -345,6 +352,8 @@ I have been working on quantization of various models as a hobby, but I have ski
 |:-|:-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-|
 |100|HiFill|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/100_HiFill)|⚫|⚫||||⚫|⚫||||⚫||
 |163|MST_inpainting|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/163_MST_inpainting)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫||⚫||
+|273|OPN(Onion-Peel Networks)|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/273_OPN)|||||||||||⚫||
+|274|DeepFillv2|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/274_DeepFillv2)|⚫|⚫|||⚫|⚫|⚫||||⚫||
 ### 17. GAN
 |No.|Model Name|Link|FP32|FP16|INT8|TPU|WQ|OV|CM|TFJS|TF-TRT|ONNX|Remarks|
 |:-|:-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-|
@@ -358,8 +367,8 @@ I have been working on quantization of various models as a hobby, but I have ski
 |:-|:-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-|
 |091|gaze-estimation-adas-0002|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/091_gaze-estimation-adas-0002)|⚫|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫|⚫||
 |102|Coconet|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/102_Coconet)|⚫|⚫||||⚫|||⚫|||magenta|
-|108|HAWP|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/108_HAWP)|||||||||||⚫|WIP|
-|110|L-CNN|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/110_L-CNN)|||||||||||⚫|WIP|
+|108|HAWP|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/108_HAWP)|||||||||||⚫|Line Parsing,WIP|
+|110|L-CNN|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/110_L-CNN)|||||||||||⚫|Line Parsing,WIP|
 |117|DTLN|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/117_DTLN)|⚫|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫|⚫||
 |119|M-LSD|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/119_M-LSD)|⚫|⚫|⚫|||⚫|⚫|⚫|⚫|⚫|⚫||
 |131|CFNet|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/131_CFNet)|||||||||||⚫|256x256,512x768|
@@ -376,6 +385,10 @@ I have been working on quantization of various models as a hobby, but I have ski
 |254|FullSubNet-plus|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/254_FullSubNet-plus)|||||||||||⚫|1x1x257x100,200,500,1000,2000,3000,5000,7000,8000,10000|
 |255|FILM|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/255_FILM)|⚫|⚫|||⚫|⚫|⚫||⚫||⚫|L1,Style,VGG/256x256,180x320,240x320,360x640,480x640,720x1280,1080x1920|
 |260|KP2D|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/260_KP2D)|⚫|⚫|||⚫|⚫|⚫||||⚫|ResNet/128x320,192x320,192x448,192x640,256x320,256x448,256x640,320x448,384x640,480x640,512x1280,736x1280|
+|272|CSFlow|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/272_CSFlow)|||||||||||⚫|chairs,kitti,things/iters=10,20/192x320,240x320,320x480,384x640,480x640,736x1280|
+|276|HybridNets|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/276_HybridNets)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫||⚫|anchor_HxW.npy/256x384,256x512,384x512,384x640,384x1024,512x640,768x1280,1152x1920|
+|278|DWARF|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/278_DWARF)|⚫|⚫|⚫||⚫|⚫|⚫|⚫|⚫||⚫|StereoDepth+OpticalFlow,/192x320,256x320,384x640,512x640,512x640,768x1280|
+|279|F-Clip|[■■■](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/279_F-Clip)|⚫|⚫|⚫||⚫|⚫|⚫||⚫||⚫|Line Parsing/ALL/192x320,256x320,320x480,384x640,480x640,736x1280|
 
 ## Sample.1 - Object detection by video file
 - RaspberryPi4 (CPU only)
